@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org" lang="en">
+<head>
+    <meta charset="UTF-8"/>
+    <title>Paypal Sandbox</title>
+</head>
+<body>
+<h1>Paypal Sandbox</h1>
+
+<form method="post" action="http://localhost:8080/pay">
+    <label>Price <input type="text" value="5" name="price"/>
+    </label>
+    <button type="submit">Pay with Paypal</button>
+</form>
+
+</body>
+</html>
